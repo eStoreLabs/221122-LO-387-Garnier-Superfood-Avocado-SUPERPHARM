@@ -517,18 +517,16 @@ $black: #000;
     &__Ctn{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      
+      gap: 10px;
     }
     &__single{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-basis: 24%;
-      //max-width: 250px;
-      //margin: 10px;
+      width: 170px;
     }
     &__name{
       text-align: center;

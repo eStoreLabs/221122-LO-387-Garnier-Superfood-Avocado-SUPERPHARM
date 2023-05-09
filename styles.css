@@ -486,15 +486,16 @@
 #es-garnier.es-garnier .es-cross__Ctn {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 #es-garnier.es-garnier .es-cross__single {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 24%;
+  width: 170px;
 }
 #es-garnier.es-garnier .es-cross__name {
   text-align: center;
