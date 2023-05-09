@@ -240,7 +240,7 @@
   margin-top: 10px;
 }
 #es-garnier.es-garnier .es-ingredients__img--packshot {
-  max-width: 80%;
+  max-width: 60%;
 }
 #es-garnier.es-garnier .es-ingredients__content {
   display: flex;
@@ -269,7 +269,7 @@
   flex: 1;
   flex-basis: 50%;
   margin: 8px;
-  max-width: 214px;
+  max-width: 200px;
   min-height: 224px;
   padding: 8px;
   background: #fff;
@@ -486,7 +486,7 @@
 #es-garnier.es-garnier .es-cross__Ctn {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 #es-garnier.es-garnier .es-cross__single {
@@ -494,8 +494,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 250px;
-  margin: 10px;
+  flex-basis: 24%;
 }
 #es-garnier.es-garnier .es-cross__name {
   text-align: center;
@@ -510,10 +509,11 @@
 #es-garnier.es-garnier .es-cross__subtitle {
   text-align: center;
   font-family: "Gotham-Bold";
+  font-size: smaller;
 }
 #es-garnier.es-garnier .es-cross__desc {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 #es-garnier.es-garnier .es-cross__drops {
   display: block;
