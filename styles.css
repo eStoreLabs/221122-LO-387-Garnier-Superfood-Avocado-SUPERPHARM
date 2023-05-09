@@ -220,19 +220,21 @@
   content: "przed";
   text-transform: uppercase;
   font-family: "Gotham-Black";
+  font-size: x-large;
   display: block;
   position: absolute;
   bottom: 0px;
-  left: 0;
+  left: 0px;
 }
 #es-garnier.es-garnier .es-ingredients__packshot::after {
   content: "po";
   text-transform: uppercase;
   font-family: "Gotham-Black";
+  font-size: x-large;
   display: block;
   position: absolute;
   bottom: 0px;
-  right: 0;
+  right: 30px;
 }
 #es-garnier.es-garnier .es-ingredients__img {
   max-width: 100%;
@@ -242,7 +244,7 @@
   margin-top: 40px;
 }
 #es-garnier.es-garnier .es-ingredients__img--packshot {
-  max-width: 250px;
+  max-width: 80%;
 }
 #es-garnier.es-garnier .es-ingredients__content {
   display: flex;

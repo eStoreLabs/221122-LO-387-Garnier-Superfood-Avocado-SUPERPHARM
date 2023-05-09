@@ -252,19 +252,21 @@ $black: #000;
         content: 'przed';
         text-transform: uppercase;
         font-family: $Title;
+        font-size: x-large;
         display: block;
         position: absolute;
         bottom: 0px;
-        left: 0;
+        left: 0px;
       }
       &::after{
         content: 'po';
         text-transform: uppercase;
         font-family: $Title;
+        font-size: x-large;
         display: block;
         position: absolute;
         bottom: 0px;
-        right: 0;
+        right: 30px;
       }
     }
     &__img {
@@ -272,7 +274,7 @@ $black: #000;
       max-width: 50px;
       margin-top: 40px;
       &--packshot{
-        max-width: 250px;
+        max-width: 80%;
       }
     }
     &__content{
