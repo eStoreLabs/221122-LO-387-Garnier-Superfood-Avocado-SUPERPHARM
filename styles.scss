@@ -23,8 +23,6 @@ $regular: 'Gotham-Book', Tahoma, Geneva, Verdana, sans-serif;
 $Bold:'Gotham-Bold';
 $Title: 'Gotham-Black';
 $primary: #095b2e;
-$aloe: #67c0b0;
-$pink: #d85865;
 $cocoa:#7d4b4b;
 $black: #000;
 
@@ -531,12 +529,7 @@ $black: #000;
     &__name{
       text-align: center;
       font-family: $Bold;
-      &--pink{
-        color: $pink;
-      }
-      &--blue{
-        color:$aloe;
-      }
+      
       &--green{
         color:$primary;
       }
@@ -566,22 +559,7 @@ $black: #000;
       border-radius: 10px;
       color: #fff;
       transition: .4s ease-in-out;
-      &--pink{
-        background-color: $pink;
-        &:hover{
-          color: $pink;
-          outline: 3px solid $pink;
-          background-color: #fff;
-        }
-      }
-      &--blue{
-        background-color:$aloe;
-        &:hover{
-          color: $aloe;
-          outline: 3px solid $aloe;
-          background-color: #fff;
-        }
-      }
+      
       &--green{
         background-color:$primary;
         &:hover{
