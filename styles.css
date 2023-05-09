@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 1300px;
+  max-width: 769px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -50,7 +50,7 @@
   color: #111;
 }
 #es-garnier.es-garnier .es-kv {
-  max-height: 700px;
+  max-height: 500px;
   display: flex;
 }
 #es-garnier.es-garnier .es-kv__imgCtn {
@@ -80,7 +80,7 @@
   margin-bottom: -22px;
 }
 #es-garnier.es-garnier .es-kv__textCtn {
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 10px;
   width: -moz-min-content;
   width: min-content;
@@ -106,6 +106,7 @@
 }
 #es-garnier.es-garnier .es-kv__packshot {
   margin-left: -120px;
+  max-width: 90%;
 }
 #es-garnier.es-garnier .es-avo {
   margin-top: 50px;
@@ -124,7 +125,7 @@
   align-items: center;
 }
 #es-garnier.es-garnier .es-avo__single {
-  width: 320px;
+  width: 360px;
   height: 200px;
   margin: 10px;
   display: flex;
@@ -167,20 +168,15 @@
   align-items: center;
   margin: 50px 0;
 }
-#es-garnier.es-garnier .es-green__imgCtn {
-  max-width: 400px;
-}
 #es-garnier.es-garnier .es-green__img {
-  width: 100%;
-  margin-bottom: -150px;
-  margin-left: -50px;
+  width: 70%;
 }
 #es-garnier.es-garnier .es-green__content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  max-width: 400px;
+  max-width: 40%;
 }
 #es-garnier.es-garnier .es-green__titleCtn {
   display: flex;
@@ -416,7 +412,7 @@
   align-items: center;
 }
 #es-garnier.es-garnier .es-prepare__single {
-  width: 280px;
+  width: 227px;
   min-height: 400px;
   margin: 10px;
   display: flex;
