@@ -366,6 +366,9 @@
 #es-garnier.es-garnier .es-benefits__number {
   margin-right: 10px;
 }
+#es-garnier.es-garnier .es-benefits__number img {
+  max-width: unset;
+}
 #es-garnier.es-garnier .es-benefits__packshotImg {
   max-width: 150px;
   margin-right: -50px;

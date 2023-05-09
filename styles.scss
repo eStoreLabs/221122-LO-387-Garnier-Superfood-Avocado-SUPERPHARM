@@ -389,6 +389,9 @@ $black: #000;
     }
     &__number{
         margin-right: 10px;
+        img {
+          max-width: unset;
+        }
     }
     &__packshotImg{
         max-width: 150px;
