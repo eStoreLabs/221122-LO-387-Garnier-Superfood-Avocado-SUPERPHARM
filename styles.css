@@ -241,7 +241,7 @@
   display: block;
   margin: 0 auto;
   max-width: 50px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 #es-garnier.es-garnier .es-ingredients__img--packshot {
   max-width: 80%;
@@ -274,7 +274,7 @@
   flex-basis: 50%;
   margin: 8px;
   max-width: 214px;
-  min-height: 244px;
+  min-height: 224px;
   padding: 8px;
   background: #fff;
   border: none;

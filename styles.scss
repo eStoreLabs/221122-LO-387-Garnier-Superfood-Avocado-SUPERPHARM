@@ -272,7 +272,7 @@ $black: #000;
     &__img {
       @include img;
       max-width: 50px;
-      margin-top: 40px;
+      margin-top: 10px;
       &--packshot{
         max-width: 80%;
       }
@@ -306,8 +306,8 @@ $black: #000;
       flex-basis: 50%;
       margin: 8px;
       max-width: 214px;
-      min-height: 244px;
-      padding:8px;
+      min-height: 224px;
+      padding: 8px;
       background: #fff;
       border: none;
       border-radius: 16px;
