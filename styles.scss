@@ -1,6 +1,4 @@
-* {
-  outline: 1px solid red;
-}
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
@@ -205,15 +203,12 @@ $black: #000;
     }
     &__img{
       width: 80%;
-      //margin-bottom: -150px;
-      //margin-left: -50px;
     }
     &__content{
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      //max-width: 400px;
       max-width: 50%;
     }
     
@@ -284,8 +279,6 @@ $black: #000;
         flex-direction: column;
         justify-content: flex-end;
         max-width: 40%;
-        // align-items: center;
-        // margin-right: 20px;
         p{
             color: $primary;
             font-family: $Title;
@@ -301,7 +294,6 @@ $black: #000;
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-start;
-      //max-width: 460px;
       max-width: 60%;
     }
     &__single {
@@ -354,11 +346,9 @@ $black: #000;
       font-size: 13px;
       text-align: center;
       width: 100%;
-      // text-align: left;
     }
   }
   .es-benefits{
-    //margin: 50px 0;
     &__container{
         display: flex;
         
@@ -536,7 +526,7 @@ $black: #000;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 170px;
+      width: 182px;
     }
     &__name{
       text-align: center;
@@ -619,7 +609,6 @@ $black: #000;
   }
 }
 
-
 @media (max-width: 650px){
     #es-garnier.es-garnier {
       .es-kv{
@@ -674,6 +663,9 @@ $black: #000;
               &__packshot{
                 margin-bottom: 80px;
               }
+              &__content {
+                max-width: unset;
+              }
         }
         .es-prepare{
         
@@ -689,6 +681,7 @@ $black: #000;
           &__package{
             margin-right: 0;
             width: 100%;
+            flex-basis: unset;
           }
           &__packshotImg{
             display: none;
@@ -697,6 +690,12 @@ $black: #000;
         .es-eco{
           &__line{
             display: none;
+          }
+          &__imgCtn {
+            max-width: 80%;
+          }
+          &__content {
+            max-width: unset;
           }
         }
         

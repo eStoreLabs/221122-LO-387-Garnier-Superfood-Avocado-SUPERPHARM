@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
-* {
-  outline: 1px solid red;
-}
-
 @font-face {
   font-family: "Gotham-Book";
   src: url("./fonts/Gotham-Book.otf") format("opentype");
@@ -505,7 +501,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 182px;
 }
 #es-garnier.es-garnier .es-cross__name {
   text-align: center;
@@ -631,6 +627,9 @@
   #es-garnier.es-garnier .es-ingredients__packshot {
     margin-bottom: 80px;
   }
+  #es-garnier.es-garnier .es-ingredients__content {
+    max-width: unset;
+  }
   #es-garnier.es-garnier .es-prepare__desc {
     font-size: 14px;
   }
@@ -641,12 +640,19 @@
   #es-garnier.es-garnier .es-benefits__package {
     margin-right: 0;
     width: 100%;
+    flex-basis: unset;
   }
   #es-garnier.es-garnier .es-benefits__packshotImg {
     display: none;
   }
   #es-garnier.es-garnier .es-eco__line {
     display: none;
+  }
+  #es-garnier.es-garnier .es-eco__imgCtn {
+    max-width: 80%;
+  }
+  #es-garnier.es-garnier .es-eco__content {
+    max-width: unset;
   }
 }
 @media (max-width: 550px) {
