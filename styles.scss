@@ -1,31 +1,29 @@
-
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 // font-family: 'Montserrat', sans-serif;
 
 @font-face {
-    font-family: "Gotham-Book";
-    src: url("./fonts/Gotham-Book.otf") format("opentype");
-    font-display: auto;
-    }
-    @font-face {
-        font-family: "Gotham-Black";
-        src: url("./fonts/Gotham-Black-Regular.ttf") format("opentype");
-        font-display: auto;
-    }
-    @font-face {
-        font-family: "Gotham-Bold";
-        src: url("./fonts/Gotham-Bold.otf") format("opentype");
-        font-display: auto;
-    }
-$regular: 'Gotham-Book', Tahoma, Geneva, Verdana, sans-serif;
-$Bold:'Gotham-Bold';
-$Title: 'Gotham-Black';
+  font-family: "Gotham-Book";
+  src: url("./fonts/Gotham-Book.otf") format("opentype");
+  font-display: auto;
+}
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("./fonts/Gotham-Black-Regular.ttf") format("opentype");
+  font-display: auto;
+}
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("./fonts/Gotham-Bold.otf") format("opentype");
+  font-display: auto;
+}
+$regular: "Gotham-Book", Tahoma, Geneva, Verdana, sans-serif;
+$Bold: "Gotham-Bold";
+$Title: "Gotham-Black";
 $primary: #095b2e;
-$cocoa:#7d4b4b;
+$cocoa: #7d4b4b;
 $black: #000;
-
 
 @mixin text {
   margin: 0;
@@ -41,16 +39,16 @@ $black: #000;
   display: block;
   margin: 0 auto;
 }
-@keyframes es-slide-in{
-  0%{
-      opacity:0;
-      transform:translateX(10%);
-    }
-    
-    100%{
-      transform:translateX(0);
-      opacity: 1;
-    }
+@keyframes es-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 #es-garnier.es-garnier {
   font-family: $regular;
@@ -63,7 +61,7 @@ $black: #000;
   overflow: hidden;
   color: #111;
   background: #fff;
-  img{
+  img {
     max-width: 100%;
   }
 
@@ -79,18 +77,17 @@ $black: #000;
     color: #111;
   }
 
-
-  .es-kv{
+  .es-kv {
     max-height: 500px;
     display: flex;
-    &__imgCtn{
+    &__imgCtn {
       width: 60%;
       background-image: url(./img/kv-woman.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
     }
-    &__contentCtn{
+    &__contentCtn {
       max-width: 40%;
       width: 100%;
       display: flex;
@@ -101,31 +98,31 @@ $black: #000;
       background-position: bottom;
       background-size: 100% 85%;
     }
-    &__logoCtn{
+    &__logoCtn {
       width: 100%;
       background-color: #fff;
     }
-    &__logo{
+    &__logo {
       margin-left: -60px;
       margin-bottom: -22px;
     }
-    &__textCtn{
+    &__textCtn {
       margin-top: 20px;
       margin-left: 10px;
       width: min-content;
       position: relative;
-      &::after{
+      &::after {
         position: absolute;
         content: url(./img/kv-badge.png);
-        top:35%;
+        top: 35%;
         right: 15%;
       }
     }
-    &__brand{
+    &__brand {
       min-width: 250px;
     }
 
-    &__newness{
+    &__newness {
       background-color: #287046;
       color: #fff;
       width: min-content;
@@ -133,120 +130,119 @@ $black: #000;
       text-transform: uppercase;
       font-family: $Bold;
     }
-    &__packshot{
+    &__packshot {
       margin-left: -120px;
       max-width: 90%;
     }
   }
-  .es-avo{
+  .es-avo {
     margin-top: 50px;
-    &__title{
+    &__title {
       text-transform: uppercase;
       color: #000;
       font-family: $Title;
       font-size: 20px;
       text-align: center;
     }
-    &__ctn{
+    &__ctn {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
     }
-    &__single{
+    &__single {
       width: 360px;
       height: 200px;
       margin: 10px;
       display: flex;
       align-items: flex-end;
-      &--oil{
+      &--oil {
         background-image: url(./img/olejek.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
       }
-      &--avo{
+      &--avo {
         background-image: url(./img/awokado.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
       }
     }
-    &__texts{
+    &__texts {
       width: 100%;
       background-color: #086230bd;
       color: #fff;
       padding: 10px;
       height: 80px;
     }
-    &__name{
+    &__name {
       font-family: $Bold;
       text-transform: uppercase;
       margin: 0;
       padding: 0;
     }
-    &__desc{
+    &__desc {
       margin: 0;
       padding: 0;
     }
-    
   }
-  .es-green{
+  .es-green {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     margin: 50px 0;
-    &__imgCtn{
+    &__imgCtn {
       max-width: 50%;
     }
-    &__img{
+    &__img {
       width: 80%;
     }
-    &__content{
+    &__content {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
       max-width: 50%;
     }
-    
-    &__titleCtn{
+
+    &__titleCtn {
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    &__line{
+    &__line {
       height: 80px;
     }
-    &__title{
+    &__title {
       text-transform: uppercase;
       color: $primary;
       font-family: $Title;
       font-size: 20px;
     }
-    &__text{
+    &__text {
       font-size: 15px;
     }
   }
   .es-ingredients {
     padding: 16px;
-    &__title{
-        text-align: center;
-        text-transform: uppercase;
-        font-family: $Title;
-        font-size: 20px;
+    &__title {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: $Title;
+      font-size: 20px;
     }
-    &__container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap
+    &__container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
-    &__packshot{
+    &__packshot {
       position: relative;
-      &::before{
-        content: 'przed';
+      &::before {
+        content: "przed";
         text-transform: uppercase;
         font-family: $Title;
         font-size: x-large;
@@ -255,8 +251,8 @@ $black: #000;
         bottom: 0px;
         left: 0px;
       }
-      &::after{
-        content: 'po';
+      &::after {
+        content: "po";
         text-transform: uppercase;
         font-family: $Title;
         font-size: x-large;
@@ -270,23 +266,23 @@ $black: #000;
       @include img;
       max-width: 50px;
       margin-top: 10px;
-      &--packshot{
+      &--packshot {
         max-width: 70%;
       }
     }
-    &__content{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        max-width: 40%;
-        p{
-            color: $primary;
-            font-family: $Title;
-            font-size: 25px;
-            line-height: .9;
-            text-transform: uppercase;
-            position: relative;
-        }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      max-width: 40%;
+      p {
+        color: $primary;
+        font-family: $Title;
+        font-size: 25px;
+        line-height: 0.9;
+        text-transform: uppercase;
+        position: relative;
+      }
     }
     &__cards {
       margin: 22px auto;
@@ -317,7 +313,7 @@ $black: #000;
       font-size: 12px;
       padding-top: 16px;
       text-align: center;
-      
+
       span {
         font-family: $Bold;
         font-size: 16px;
@@ -327,10 +323,10 @@ $black: #000;
       }
     }
     &__cards {
-        margin: 0;
-        background: url(./img/leaf-icon.png) no-repeat center center;
-        background-size: 220px;
-      }
+      margin: 0;
+      background: url(./img/leaf-icon.png) no-repeat center center;
+      background-size: 220px;
+    }
     &__cards .es-ingredients__single {
       opacity: 1;
     }
@@ -348,70 +344,69 @@ $black: #000;
       width: 100%;
     }
   }
-  .es-benefits{
-    &__container{
-        display: flex;
-        
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+  .es-benefits {
+    &__container {
+      display: flex;
+
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
-    &__title{
-        text-align: center;
-        text-transform: uppercase;
-        font-family: $Title;
-        font-size: 16px;
+    &__title {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: $Title;
+      font-size: 16px;
     }
-    &__package{
-      flex-basis: 50%;  
+    &__package {
+      flex-basis: 50%;
       padding: 10px 40px;
-        background-color: #f3f3f3;
-        min-width: 200px;
-        max-height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: -50px;
-        align-items: flex-start;
+      background-color: #f3f3f3;
+      min-width: 200px;
+      max-height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: -50px;
+      align-items: flex-start;
     }
-    &__single{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        p{
-          font-size: 12px;
-          max-width: 30ch;
-        }
+    &__single {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 12px;
+        max-width: 30ch;
+      }
     }
-    &__number{
-        margin-right: 10px;
-        img {
-          max-width: unset;
-          max-width: 40px;
-        }
+    &__number {
+      margin-right: 10px;
+      img {
+        max-width: unset;
+        max-width: 40px;
+      }
     }
-    &__packshotImg{
-        max-width: 90px;
-        margin-right: -50px;
-        z-index: 10;
-        position: relative;
-        &:hover{
-            transform: translateX(20px);
-            transition: .5s ease;
-        }
+    &__packshotImg {
+      max-width: 90px;
+      margin-right: -50px;
+      z-index: 10;
+      position: relative;
+      &:hover {
+        transform: translateX(20px);
+        transition: 0.5s ease;
+      }
     }
-    &__wrapper{
+    &__wrapper {
       flex-basis: 40%;
       position: relative;
       z-index: 1;
-        img{
-            max-width: 300px;
-            z-index: 0;
-            position: relative;
-        }
-
+      img {
+        max-width: 300px;
+        z-index: 0;
+        position: relative;
+      }
     }
-    &__elipsa{
+    &__elipsa {
       position: absolute;
       z-index: -10;
       width: 250px;
@@ -422,137 +417,137 @@ $black: #000;
       right: -100px;
     }
   }
-  
-  .es-prepare{
+
+  .es-prepare {
     margin: 50px 10px;
-    &__title{
-        text-align: center;
-        font-family: $Bold;
-        text-transform: uppercase;
-        font-size: 20px;
-        position: relative;
-        z-index: 10;
+    &__title {
+      text-align: center;
+      font-family: $Bold;
+      text-transform: uppercase;
+      font-size: 20px;
+      position: relative;
+      z-index: 10;
     }
-    &__mainCtn{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+    &__mainCtn {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
-    &__single{
-        width: 227px;
-        min-height: 400px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+    &__single {
+      width: 227px;
+      min-height: 400px;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
-    &__imgCtn{
+    &__imgCtn {
       width: 220px;
       height: 220px;
     }
-    &__img{
+    &__img {
       width: 100%;
       height: 100%;
     }
-    &__step{
-        font-family: $Bold;
-        margin-top: 40px;
+    &__step {
+      font-family: $Bold;
+      margin-top: 40px;
     }
-    &__desc{
+    &__desc {
       margin-top: -10px;
-        font-size: 14px;
-        max-width: 250px;
-        min-height: 50px;
+      font-size: 14px;
+      max-width: 250px;
+      min-height: 50px;
     }
   }
-  .es-eco{
+  .es-eco {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    &__imgCtn{
+    &__imgCtn {
       max-width: 40%;
     }
-    &__img{
+    &__img {
       width: 100%;
     }
     &__content {
       max-width: 60%;
     }
-    &__title{
+    &__title {
       text-transform: uppercase;
       text-align: center;
       font-family: $Title;
       font-size: 18px;
       margin-bottom: 20px;
     }
-    &__single{
+    &__single {
       display: flex;
       justify-content: flex-end;
       align-items: center;
     }
-    &__icon{
+    &__icon {
       width: 40px;
       margin: 0 10px;
     }
-    &__text{
+    &__text {
       min-width: 290px;
-      span{
+      span {
         font-family: $Bold;
       }
     }
   }
-  .es-cross{
-    margin:20px 0;
-    &__title{
+  .es-cross {
+    margin: 20px 0;
+    &__title {
       text-align: center;
       font-family: $Title;
       text-transform: uppercase;
       font-size: 20px;
       margin-bottom: 30px;
     }
-    &__Ctn{
+    &__Ctn {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 10px;
     }
-    &__single{
+    &__single {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 182px;
     }
-    &__name{
+    &__name {
       text-align: center;
       font-family: $Bold;
-      
-      &--green{
-        color:$primary;
+
+      &--green {
+        color: $primary;
       }
-      &--brown{
+      &--brown {
         color: $cocoa;
       }
     }
-    &__subtitle{
+    &__subtitle {
       text-align: center;
       font-family: $Bold;
       font-size: smaller;
     }
-    &__desc{
+    &__desc {
       text-align: center;
       font-size: 12px;
     }
-    &__drops{
+    &__drops {
       display: block;
       margin: 10px auto;
     }
-    &__link{
+    &__link {
       text-decoration: none;
       text-align: center;
       font-family: $Bold;
@@ -561,29 +556,28 @@ $black: #000;
       padding: 7px 40px;
       border-radius: 10px;
       color: #fff;
-      transition: .4s ease-in-out;
-      
-      &--green{
-        background-color:$primary;
-        &:hover{
+      transition: 0.4s ease-in-out;
+
+      &--green {
+        background-color: $primary;
+        &:hover {
           color: $primary;
           outline: 3px solid $primary;
           background-color: #fff;
         }
       }
-      &--brown{
+      &--brown {
         background-color: $cocoa;
-        &:hover{
+        &:hover {
           color: $cocoa;
           outline: 3px solid $cocoa;
           background-color: #fff;
         }
       }
-      
     }
-    &__imgCtn{
+    &__imgCtn {
       width: 100%;
-      img{
+      img {
         width: auto;
         height: 250px;
         display: block;
@@ -591,141 +585,139 @@ $black: #000;
       }
     }
   }
-  .es-claims{
+  .es-claims {
     text-align: center;
     margin: 40px 0;
-    &__text{
+    &__text {
       font-size: 11px;
       margin: 5px 0;
       padding: 0;
     }
   }
-  .es-footer{
+  .es-footer {
     width: 100%;
     margin: 0;
-    img{
+    img {
       max-width: 100%;
     }
   }
 }
 
-@media (max-width: 650px){
-    #es-garnier.es-garnier {
-      .es-kv{
-        max-height: 600px;
-        &__imgCtn{
-          display: none;
-        }
-        &__logo{
-          margin-left: 0px;
-          margin-bottom: -22px;
-        }
-        &__contentCtn{
-          max-width: 100%;
-        }
-        &__packshot{
-          margin-left: 0px;
-          max-width: 300px;
-        }
-        &__textCtn{
-          &::after{
-            right: 10%;
-          }
-        }
-        &__brand{
-          min-width: 160px;
-          width: 160px;
-        }
-      }
-        .es-avo{
-          &__single{
-            width: 500px;
-          }
-        }
-        .es-green{
-          &__imgCtn{
-            max-width: 300px;
-          }
-          &__img{
-            margin-left: 0;
-            margin-bottom: 0;
-          }
-          &__content{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 300px;
-          }
-        }
-        .es-ingredients{
-            background-image: none;
-              &__packshot{
-                margin-bottom: 80px;
-              }
-              &__content {
-                max-width: unset;
-              }
-        }
-        .es-prepare{
-        
-          &__desc{
-            font-size: 14px;
-          }
-          &__single{
-            align-items: center;
-            justify-content: center;
-          }
-        }
-        .es-benefits{
-          &__package{
-            margin-right: 0;
-            width: 100%;
-            flex-basis: unset;
-          }
-          &__packshotImg{
-            display: none;
-          }
-        }
-        .es-eco{
-          &__line{
-            display: none;
-          }
-          &__imgCtn {
-            max-width: 80%;
-          }
-          &__content {
-            max-width: unset;
-          }
-        }
-        
-    }
-}
-
-@media (max-width: 550px){
-  #es-garnier.es-garnier{
-    .es-kv{
-      max-height: 550px;
-      &__imgCtn{
+@media (max-width: 650px) {
+  #es-garnier.es-garnier {
+    .es-kv {
+      max-height: 600px;
+      &__imgCtn {
         display: none;
       }
-      &__logo{
+      &__logo {
         margin-left: 0px;
         margin-bottom: -22px;
       }
-      &__contentCtn{
+      &__contentCtn {
         max-width: 100%;
       }
-      &__packshot{
+      &__packshot {
         margin-left: 0px;
         max-width: 300px;
       }
-      &__textCtn{
-        &::after{
+      &__textCtn {
+        &::after {
           right: 10%;
         }
       }
-      &__brand{
+      &__brand {
+        min-width: 160px;
+        width: 160px;
+      }
+    }
+    .es-avo {
+      &__single {
+        width: 500px;
+      }
+    }
+    .es-green {
+      &__imgCtn {
+        max-width: 300px;
+      }
+      &__img {
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+      &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+      }
+    }
+    .es-ingredients {
+      background-image: none;
+      &__packshot {
+        margin-bottom: 80px;
+      }
+      &__content {
+        max-width: unset;
+      }
+    }
+    .es-prepare {
+      &__desc {
+        font-size: 14px;
+      }
+      &__single {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .es-benefits {
+      &__package {
+        margin-right: 0;
+        width: 100%;
+        flex-basis: unset;
+      }
+      &__packshotImg {
+        display: none;
+      }
+    }
+    .es-eco {
+      &__line {
+        display: none;
+      }
+      &__imgCtn {
+        max-width: 80%;
+      }
+      &__content {
+        max-width: unset;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #es-garnier.es-garnier {
+    .es-kv {
+      max-height: 550px;
+      &__imgCtn {
+        display: none;
+      }
+      &__logo {
+        margin-left: 0px;
+        margin-bottom: -22px;
+      }
+      &__contentCtn {
+        max-width: 100%;
+      }
+      &__packshot {
+        margin-left: 0px;
+        max-width: 300px;
+      }
+      &__textCtn {
+        &::after {
+          right: 10%;
+        }
+      }
+      &__brand {
         min-width: 190px;
         width: 190px;
       }
