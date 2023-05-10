@@ -453,10 +453,13 @@
   margin-bottom: 50px;
 }
 #es-garnier.es-garnier .es-eco__imgCtn {
-  max-width: 400px;
+  max-width: 40%;
 }
 #es-garnier.es-garnier .es-eco__img {
   width: 100%;
+}
+#es-garnier.es-garnier .es-eco__content {
+  max-width: 60%;
 }
 #es-garnier.es-garnier .es-eco__title {
   text-transform: uppercase;
@@ -475,7 +478,7 @@
   margin: 0 10px;
 }
 #es-garnier.es-garnier .es-eco__text {
-  width: 300px;
+  min-width: 290px;
 }
 #es-garnier.es-garnier .es-eco__text span {
   font-family: "Gotham-Bold";

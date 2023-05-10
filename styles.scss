@@ -484,11 +484,13 @@ $black: #000;
     align-items: center;
     margin-bottom: 50px;
     &__imgCtn{
-      max-width: 400px;
-
+      max-width: 40%;
     }
     &__img{
       width: 100%;
+    }
+    &__content {
+      max-width: 60%;
     }
     &__title{
       text-transform: uppercase;
@@ -499,7 +501,7 @@ $black: #000;
     }
     &__single{
       display: flex;
-      justify-content:flex-end;
+      justify-content: flex-end;
       align-items: center;
     }
     &__icon{
@@ -507,7 +509,7 @@ $black: #000;
       margin: 0 10px;
     }
     &__text{
-      width: 300px;
+      min-width: 290px;
       span{
         font-family: $Bold;
       }
