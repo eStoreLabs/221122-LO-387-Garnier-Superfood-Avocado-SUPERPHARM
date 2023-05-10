@@ -55,7 +55,7 @@
 }
 #es-garnier.es-garnier .es-kv__imgCtn {
   width: 60%;
-  background-image: url(./img/kv-woman.png);
+  background-image: url("./img/kv-woman.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,7 +66,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(./img/kv-ampoule.png);
+  background-image: url("./img/kv-ampoule.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 85%;
@@ -88,7 +88,7 @@
 }
 #es-garnier.es-garnier .es-kv__textCtn::after {
   position: absolute;
-  content: url(./img/kv-badge.png);
+  content: url("./img/kv-badge.png");
   top: 35%;
   right: 15%;
 }
@@ -132,13 +132,13 @@
   align-items: flex-end;
 }
 #es-garnier.es-garnier .es-avo__single--oil {
-  background-image: url(./img/olejek.png);
+  background-image: url("./img/olejek.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #es-garnier.es-garnier .es-avo__single--avo {
-  background-image: url(./img/awokado.png);
+  background-image: url("./img/awokado.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,7 +303,7 @@
 }
 #es-garnier.es-garnier .es-ingredients__cards {
   margin: 0;
-  background: url(./img/leaf-icon.png) no-repeat center center;
+  background: url("./img/leaf-icon.png") no-repeat center center;
   background-size: 220px;
 }
 #es-garnier.es-garnier .es-ingredients__cards .es-ingredients__single {
